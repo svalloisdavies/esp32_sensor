@@ -1,0 +1,10 @@
+menu "Project Configuration"
+
+    config LOOP_PERIOD
+        int "loop time ms"
+        range 10 3600000
+        default 1000
+        help
+            Define the loop period in milliseconds.
+
+endmenu
